@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mindhouse</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav><i class="fas fa-bars"></i></nav>
+      <header>
+        <div class="headerTitle"><span>Mindhouse</span></div>
+      </header>
+      <main>
+        <div id="prevBtn" onclick="plusSlides(-1)">
+          <i class="fas fa-arrow-left"></i>
+        </div>
+        <div id="nextBtn" onclick="plusSlides(1)">
+          <i class="fas fa-arrow-right"></i>
+        </div>
+        <div class="slider">
+          <div class="slides fade">
+            <img src="assets/pictures/pic1.jpg" />
+            <div class="legend">
+              <div class="legendTitle">Sans titre #1,</div>
+              <span class="legendDate"> 2011</span>
+
+              <div>
+                <span class="legendDesc">(Aquarelle sur papier)</span>
+              </div>
+              <div>
+                <span class="legendDesc">170 * 115 cm</span>
+              </div>
+            </div>
+          </div>
+          <div class="slides fade">
+            <img src="assets/pictures/pic2.jpg" />
+            <div class="legend">
+              <div class="legendTitle">Sans titre #2,</div>
+              <span class="legendDate"> 2013</span>
+
+              <div>
+                <span class="legendDesc">(Aquarelle sur papier)</span>
+              </div>
+              <div>
+                <span class="legendDesc">170 * 115 cm</span>
+              </div>
+            </div>
+          </div>
+          <div class="slides fade">
+            <img src="assets/pictures/pic3.jpg" />
+            <div class="legend">
+              <div class="legendTitle">Sans titre #6,</div>
+              <span class="legendDate"> 2013</span>
+
+              <div>
+                <span class="legendDesc">(Aquarelle sur papier)</span>
+              </div>
+              <div>
+                <span class="legendDesc">170 * 115 cm</span>
+              </div>
+            </div>
+          </div>
+          <div class="slides fade">
+            <img src="assets/pictures/pic4.jpg" />
+            <div class="legend">
+              <div class="legendTitle">Sans titre #7,</div>
+              <span class="legendDate"> 2013</span>
+
+              <div>
+                <span class="legendDesc">(Aquarelle sur papier)</span>
+              </div>
+              <div>
+                <span class="legendDesc">170 * 115 cm</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
